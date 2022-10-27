@@ -1,0 +1,10 @@
+{
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "eslint.workingDirectories": ["."],
+  "prettier.prettierPath": "node_modules/prettier",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "editor.codeActionsOnSave": ["source.fixAll.eslint"]
+}
